@@ -1,3 +1,3 @@
-let nome = 5.5;
+let nome = "Jorge "
 
 console.log(typeof(nome));
