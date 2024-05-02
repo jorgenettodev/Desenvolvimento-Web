@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#00b2aa, #ecdeed);
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10%;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Exo 2", sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    border: none;
+    border-radius: 10%;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    padding: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(#00b2aa, #ecdeed);
+    color: #000;
+    transition: all 2.5s fade;
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
