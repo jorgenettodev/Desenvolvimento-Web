@@ -1,0 +1,29 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.conteudo__principal {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div1 {
+    background-color: #D26A66;
+    /* height: 50%; */
+    width: 50%;
+}
+.div2 {
+    background-color: #4E85BD;
+    width: 50%;
+}
+.div3 {
+    background-color:#65BFB7;
+    width: 50%;
+}
+.div4 {
+    background-color: #85C04F;
+    width: 50%;
+}
