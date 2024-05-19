@@ -1,0 +1,15 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    border: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #a3ceff;
+}
