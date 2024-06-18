@@ -1,1 +1,2 @@
-console.log("Calculadora project");
+let outputResultado = document.querySelector("#result");
+outputResultado.innerText = "Xablau morreu";
