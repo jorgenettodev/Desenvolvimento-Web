@@ -1,0 +1,54 @@
+@import url('../css/reset.css');
+
+:root {
+   --bg-color: #121212;
+   --main-color: #00ffcc;
+}
+
+html, body {
+    background-color: var(--bg-color);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    color: var(--main-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagem-astronauta {
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    /* transition: 1s; */
+    animation: animacao-imagem 5s linear infinite;
+    /* transition: 1s; */
+    
+}
+.imagem-astronauta:hover {
+}
+
+.anima-botao {
+    animation: animacao-botao 0.2s;
+}
+
+@keyframes animacao-botao {
+    100% {
+        padding: 4px;
+    }
+}
+
+@keyframes animacao-imagem {
+    0% {
+        
+    }
+    100% {
+        filter: hue-rotate(900deg);
+        transform: rotate(360deg);
+    }
+}

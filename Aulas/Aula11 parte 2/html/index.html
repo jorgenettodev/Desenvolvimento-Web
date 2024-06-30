@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 11 - parte 2</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+        <div class="hero">
+            <img class="imagem-astronauta" src="https://static.vecteezy.com/system/resources/previews/005/733/971/original/cute-astronaut-riding-rocket-and-holding-flag-cartoon-icon-illustration-science-technology-icon-concept-isolated-premium-flat-cartoon-style-vector.jpg" alt="astronaut">
+
+            <p>Cute Astronaut</p>
+            <button id="btn-login">Login</button>
+        </div>
+
+    <script>
+        let botao = document.querySelector('#btn-login');
+        botao.addEventListener('click', (e) => {
+            botao.classList.add('anima-botao');
+
+            setTimeout( () => {
+                botao.classList.remove('anima-botao');
+            }, 400)
+        })
+    </script>
+</body>
+</html>
