@@ -1,2 +1,24 @@
 @import url('./reset.css');
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.calculadora-ir {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 400px;
+    width: 300px;
+    gap: 2rem;
+    background-color: orange;
+    border-radius: 16px;
+}
+
+.campo-input {
+    display: flex;
+    flex-direction: column;
+}
