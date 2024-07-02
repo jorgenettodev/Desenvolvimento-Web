@@ -30,8 +30,6 @@ p {
     /* transition: 1s; */
     
 }
-.imagem-astronauta:hover {
-}
 
 .anima-botao {
     animation: animacao-botao 0.2s;
