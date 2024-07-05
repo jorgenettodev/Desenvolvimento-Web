@@ -15,3 +15,14 @@ btnCalcular.addEventListener('click', () => {
 
     inputSalarioValorLiquido.value = valorLiquido;
 });
+
+let animarBtn = (e) => {
+    console.log(e.target);
+    e.target.classList.add("animar-btn");
+
+    setTimeout(() => {
+        e.target.classList.remove("animar-btn");
+    }, 200);
+}
+
+btnCalcular.addEventListener('click', animarBtn);

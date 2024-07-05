@@ -26,11 +26,19 @@ body {
 }
 
 .btn {
-    animation: change-color 2s infinite;
+    /* animation: change-color 2s infinite; */
     background-color: rgb(188, 26, 182);
     border: none;
     padding: 8px;
     border-radius: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.animar-btn {
+    animation: change-color 0.5s infinite;
 }
 
 
