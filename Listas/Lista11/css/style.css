@@ -15,10 +15,41 @@ body {
     width: 300px;
     gap: 2rem;
     background-color: orange;
+    border: 5px solid;
     border-radius: 16px;
+    animation: border-color 3s infinite;
 }
 
 .campo-input {
     display: flex;
     flex-direction: column;
+}
+
+.btn {
+    animation: change-color 2s infinite;
+    background-color: rgb(188, 26, 182);
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+@keyframes change-color {
+    0% {
+        background-color: rgb(188, 26, 182);
+    }
+
+    100% {
+        background-color: rgb(28, 190, 199);
+    }
+}
+
+@keyframes border-color {
+    0% {
+        border-color: rgb(188, 26, 182);
+    }
+
+    100% {
+        border-color: rgb(28, 190, 199);
+    }
 }
